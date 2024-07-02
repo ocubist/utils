@@ -1,0 +1,17 @@
+{
+  "name": "PACKAGE_NAME",
+  "version": "0.1.0",
+  "description": "DESCRIPTION",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "publishProject": "npm run build && npm publish --access public",
+    "test": "jest --config jest.config.js --detectOpenHandles",
+    "test:watch": "jest --config jest.config.js --watch",
+    "docs": "typedoc"
+  },
+  "keywords": [],
+  "author": "ocubist",
+  "license": "MIT"
+}
