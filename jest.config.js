@@ -15,4 +15,6 @@ module.exports = {
   transform: {
     "^.+\\.ts$": ["ts-jest", { tsconfig: "<rootDir>/tsconfig.json" }],
   },
+  globalSetup: "<rootDir>/src/tests/globalSetup.ts",
+  globalTeardown: "<rootDir>/src/tests/globalTeardown.ts",
 };
