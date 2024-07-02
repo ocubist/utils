@@ -26,6 +26,7 @@ npm install --save-dev typedoc@latest
 npm install --save-dev ts-node@latest
 npm install --save-dev ts-jest @types/jest@latest
 npm install --save-dev rimraf@latest
+npm install --save-dev typedoc
 
 # Install @ocubist packages
 npm install @ocubist/error-alchemy@latest
@@ -104,3 +105,54 @@ For it to deploy you must set a `Repo-Secret` in _Actions secrets and variables_
 
 // @endindex
 ```
+
+## Template for `README.MD`
+
+Make sure to replace the placeholders:
+
+- **\<!-- PACKAGE_NAME --\>**
+  > For example `Package Template`
+- **\<!-- DESCRIPTION --\>**
+  > Description of the package
+- **\<!-- package-name --\>**
+  > The actual name. For example `package-template`.
+- **\<!-- BASIC_EXAMPLE --\>**
+  > Basic Usage-Example
+- **\<!-- ADVANCED_EXAMPLE --\>**
+  > Advanced Usage-Example
+
+````markdown
+# <!-- PACKAGE_NAME -->
+
+## Description
+
+<!-- DESCRIPTION -->
+
+## Installation
+
+To install the <!-- PACKAGE_NAME -->, use npm or yarn:
+
+```bash
+npm install @ocubist/<!-- package-name -->
+# or
+yarn add @ocubist/<!-- package-name -->
+```
+
+## Usage
+
+### Basic Example
+
+<!-- BASIC_EXAMPLE -->
+
+### Advanced Example with POST Request
+
+<!-- ADVANCED_EXAMPLE -->
+
+## API Documentation
+
+[Docs](https://ocubist.github.io/<!-- package-name -->/)
+
+## License
+
+The <!-- PACKAGE_NAME --> is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more information.
+````
