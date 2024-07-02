@@ -9,7 +9,8 @@
     "publishProject": "npm run build && npm publish --access public",
     "test": "jest --config jest.config.js --detectOpenHandles",
     "test:watch": "jest --config jest.config.js --watch",
-    "docs": "typedoc"
+    "docs": "typedoc",
+    "git:log": "git log --pretty=format:\"%h - %an, %ar : %s\" > coverage/commit_history.txt"
   },
   "keywords": [],
   "author": "ocubist",
