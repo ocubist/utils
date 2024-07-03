@@ -1,0 +1,1 @@
+{"version":3,"file":"unknown.js","sourceRoot":"","sources":["../../../src/error-handling/errors/unknown.ts"],"names":[],"mappings":";;;AAAA,0EAAyE;AAEzE,IAAM,oBAAoB,GAAG,IAAA,qDAAyB,EAAC,eAAe,CAAC,CAAC;AAExE;;GAEG;AACU,QAAA,eAAe,GAAG,oBAAoB,CAAC,gBAAgB,CAAC;IACnE,IAAI,EAAE,iBAAiB;IACvB,KAAK,EAAE,+CAA+C;IACtD,QAAQ,EAAE,YAAY;IACtB,SAAS,EAAE,eAAe;CAC3B,CAAC,CAAC"}
