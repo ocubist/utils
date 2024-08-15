@@ -27,7 +27,7 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "@ocubist/error-alchemy": "^0.9.1",
+    "@ocubist/error-alchemy": "^0.9.3",
     "ansi-colors": "^4.1.3",
     "supports-color": "^9.4.0",
     "uuid": "^9.0.1",
