@@ -1,5 +1,8 @@
 # Development files
-src/
+src/tests/
+src/**/*.test.ts
+src/**/*.test.js
+src/play/
 tests/
 play/
 coverage/
