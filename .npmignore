@@ -8,6 +8,9 @@ docs/
 logs/
 .archive/
 
+# Github
+.github
+
 # Configuration files
 tsconfig.json
 jest.config.cjs
